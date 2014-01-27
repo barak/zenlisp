@@ -8,7 +8,7 @@ License: HAPPY
 
 Files: src/mexprc/mexprc.l
 Copyright: 2003-2008, Nils M Holm
-License: BSDISH
+License: 2-Clause-BSD
 
 Files: debian/*
 Copyright: 2014 Barak A. Pearlmutter <bap@debian.org>
@@ -36,7 +36,7 @@ License: HAPPY
  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  SUCH DAMAGE.
 
-License: BSDISH
+License: 2-Clause-BSD
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
