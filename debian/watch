@@ -1,2 +1,10 @@
 version=3
 # http://www.t3x.org/files/zenlisp.zip
+
+## This runs the check for the current version.
+# eval $(tail -3 debian/watch | sed 's/^#//' | sed 's/\\$//')
+
+## This checks for the current version.
+# rm -f zenlisp.zip ; \
+# wget --quiet http://www.t3x.org/files/zenlisp.zip; \
+# unzip -p zenlisp.zip '*/zl.c' | egrep 'define.*RELEASE'
