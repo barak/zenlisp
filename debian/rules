@@ -12,3 +12,12 @@ override_dh_auto_build:
 override_dh_auto_install:
 	dh_auto_install -- $(PASS_TO_MAKE)
 	-rm --verbose debian/zenlisp/usr/share/zenlisp/LICENSE
+
+get-orig-source:
+	wget --quiet http://www.t3x.org/files/zenlisp.zip
+	v=$$(unzip -p zenlisp.zip '*/zl.c' \
+		| egrep 'define.*RELEASE' \
+		| tr '"-' ' .' \
+		| awk '{print $$3}') && echo $$v > new-version
+	cat new-version
+	echo finish this stanza one of these days
