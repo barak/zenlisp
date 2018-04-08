@@ -17,9 +17,7 @@ override_dh_auto_install:
 
 get-orig-source:
 	wget --quiet http://www.t3x.org/files/zenlisp.zip
-	v=$$(unzip -p zenlisp.zip '*/zl.c' \
+	mk-origtargz -v $$(unzip -p zenlisp.zip '*/zl.c' \
 		| egrep 'define.*RELEASE' \
 		| tr '"-' ' .' \
-		| awk '{print $$3}') && echo $$v > new-version
-	cat new-version
-	echo finish this stanza one of these days
+		| awk '{print $$3}') zenlisp.zip
