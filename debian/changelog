@@ -1,4 +1,4 @@
-zenlisp (2013.11.22-3) UNRELEASED; urgency=medium
+zenlisp (2013.11.22-3) unstable; urgency=medium
 
   [ Ondřej Nový ]
   * d/copyright: Use https protocol in Format field
@@ -8,8 +8,9 @@ zenlisp (2013.11.22-3) UNRELEASED; urgency=medium
   * Bump debhelper from old 11 to 13.
   * Set debhelper-compat version in Build-Depends.
   * Replace spaces in short license names with dashes.
+  * Bump policy to 4.5.0, no changes required
 
- -- Ondřej Nový <onovy@debian.org>  Mon, 01 Oct 2018 10:10:03 +0200
+ -- Barak A. Pearlmutter <bap@debian.org>  Sat, 15 Aug 2020 15:59:17 +0100
 
 zenlisp (2013.11.22-2) unstable; urgency=medium
 
