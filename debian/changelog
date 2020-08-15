@@ -6,6 +6,7 @@ zenlisp (2013.11.22-3) UNRELEASED; urgency=medium
   [ Barak A. Pearlmutter ]
   * Use secure URI in Homepage field.
   * Bump debhelper from old 11 to 13.
+  * Set debhelper-compat version in Build-Depends.
 
  -- Ondřej Nový <onovy@debian.org>  Mon, 01 Oct 2018 10:10:03 +0200
 
