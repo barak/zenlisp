@@ -1,6 +1,10 @@
 zenlisp (2013.11.22-3) UNRELEASED; urgency=medium
 
+  [ Ondřej Nový ]
   * d/copyright: Use https protocol in Format field
+
+  [ Barak A. Pearlmutter ]
+  * Use secure URI in Homepage field.
 
  -- Ondřej Nový <onovy@debian.org>  Mon, 01 Oct 2018 10:10:03 +0200
 
